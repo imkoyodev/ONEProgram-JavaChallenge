@@ -1,0 +1,17 @@
+services:
+  playground-java:
+    container_name: 'playground-java'
+    hostname: 'java'
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    restart: always
+    working_dir: '/workspace'
+    tty: true
+    volumes:
+      - type: bind
+        source: ..
+        target: /workspace
+    ports:
+      - 8888:8888
+    command: sleep infinity

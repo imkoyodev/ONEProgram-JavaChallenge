@@ -1,0 +1,19 @@
+
+{
+	"name": "ONE Program - Java",
+	"dockerComposeFile": "compose.yaml",
+	"service": "playground-java",
+	"workspaceFolder": "/workspace",
+	"shutdownAction": "stopCompose",
+	"forwardPorts": [8888],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"k--kato.intellij-idea-keybindings",
+				"vscjava.vscode-java-pack",
+				"vscjava.vscode-gradle"
+			]			
+		}
+	}
+}
