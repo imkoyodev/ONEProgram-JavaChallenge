@@ -1,6 +1,6 @@
 # ONE Program Challenge - Conversor de Monedas
 
-This challenge is part of the [Java Orientado a Objetos](https://app.aluracursos.com/formacion-java-grupo7-one) training given by [Alura](https://www.aluracursos.com/) within the [Oracle Next Education](https://www.oracle.com/co/education/oracle-for-education/) program. The Alura team established a style guide through the FIGMA platform and the logical conditions to be met by the encryptor. 
+This challenge is part of the [Java Orientado a Objetos](https://app.aluracursos.com/formacion-java-grupo7-one) training given by [Alura](https://www.aluracursos.com/) within the [Oracle Next Education](https://www.oracle.com/co/education/oracle-for-education/) program. The Alura team has established technical requirements and APIs that must be applied in building the currency converter.
 
 ## Challenge conditions
 
