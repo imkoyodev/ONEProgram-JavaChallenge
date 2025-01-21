@@ -1,8 +1,8 @@
 
 {
-	"name": "ONE Program - Java",
+	"name": "ONE Program - JavaChallange",
 	"dockerComposeFile": "compose.yaml",
-	"service": "playground-java",
+	"service": "java-challange",
 	"workspaceFolder": "/workspace",
 	"shutdownAction": "stopCompose",
 	"forwardPorts": [8888],
@@ -10,10 +10,16 @@
 		"vscode": {
 			"extensions": [
 				"ms-azuretools.vscode-docker",
-				"k--kato.intellij-idea-keybindings",
-				"vscjava.vscode-java-pack",
-				"vscjava.vscode-gradle"
-			]			
+				"redhat.java",
+				"vscjava.vscode-java-debug",
+				"vscjava.vscode-java-test",
+				"vscjava.vscode-maven",
+				"vscjava.vscode-java-dependency",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"shengchen.vscode-checkstyle",
+				"vmware.vscode-boot-dev-pack",
+				"ms-toolsai.datawrangler"
+			]
 		}
 	}
 }

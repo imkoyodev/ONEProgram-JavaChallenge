@@ -1,6 +1,6 @@
 services:
-  playground-java:
-    container_name: 'playground-java'
+  java-challange:
+    container_name: 'java-challange'
     hostname: 'java'
     build:
       context: ..
@@ -10,7 +10,7 @@ services:
     tty: true
     volumes:
       - type: bind
-        source: ..
+        source: ../
         target: /workspace
     ports:
       - 8888:8888
