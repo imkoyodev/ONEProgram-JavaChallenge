@@ -10,7 +10,7 @@ public class ConversorApi {
 
 
     public MonedasApi tasaDeCambio(String origen, String destino, double valor) {
-        String apiKey = "b0128cad8f00d21e8d998629";
+        String apiKey = ${{ secrets.APIKEY }}
         String direccion = "https://v6.exchangerate-api.com/v6/" + apiKey + "/pair/"+ origen + "/"
                 + destino + "/" + valor;
         HttpResponse<String> response;
